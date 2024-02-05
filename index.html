@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Website</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Slick CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <!-- Header Start -->
+    <header class="first-header">
+        <div class="container">
+            <nav>
+                <div class="row">
+                    <div class="col-lg-4 col-12">
+                        <p> Wellcome to Our online shopping </p>
+                    </div>
+                    <div class="col-lg-8 col-12">
+                        <ul>
+                            <li><a href="./others page/index.html">Shopping</a></li>
+                            <li><a href="#">Stores</a></li>
+                            <li><a href="#">Insurance</a></li>
+                            <li><a href="#">Mobile</a></li>
+                            <li><a href="#">Credit cards</a></li>
+                            <li><a href="#">Rewards</a></li>
+                            <li><a href="#">Gift cards</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <header class="second-header">
+        <div class="container">
+            <nav>
+                <div class="row">
+                    <div class="col-lg-2 col-3">                        
+                        <div class="logo-area">
+                            <img src="images/Screenshot_2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-9">
+                        <div class="search">
+                            <div class="search">
+                                <form>
+                                    <input type="text" placeholder="Search in Our Online Shop">
+                                    <i class="cart fa-solid fa-magnifying-glass"></i>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-12">
+                        <div class="card-area">
+                            <div class="login">
+                                <a href="#"><i class="fa-regular fa-user"></i></a>
+                                <a href="#">Login</a>
+                                <a href="#">Sign Up</a>
+                            </div>
+                            <div class="card-and-details">
+                                <div class="cart">
+                                    <a href="#"><i class=" fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                                <div class="cart-details">
+                                    <p>Your order</p>
+                                    <p>$0.00</p>
+                                </div>
+                            </div>
+                            <div class="cart-cheak">
+                                <p>Cheakout</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <header class="main-header">
+        <div class="container">
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars menu-open" onclick="menuOpen()"></i>
+                <i class="fa-regular fa-circle-xmark menu-close" onclick="menuClose()"></i>
+            </div>
+        </div>
+        <div class="container mobile-menu">
+            <nav>
+                <div class="main-menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Boy's Fashion</a></li>
+                        <li><a href="#">Girl's Fashion</a></li>
+                        <li><a href="#">Mother & Baby</a></li>
+                        <li><a href="#">Electronics Devices</a></li>
+                        <li><a href="#">Furniture</a></li>
+                        <li><a href="#">Cosmetics</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="search">
+                <form>
+                    <input type="text" placeholder="Search in Our Online Shop">
+                    <div class="search-icon">
+                        <i class="cart fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <!--Main Menu Slider Start -->
+    <section class="slider-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="main-menu">
+                        <nav>
+                            <ul>
+                                <li><a href="#">Women's & Girl's Fashion</a>
+                                    <ul>
+                                        <li><a href="#">Traditional Wear</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Health & Beauty</a>
+                                    <ul>
+                                        <li><a href="#">Skin Care</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Watches, Bags, Jewellary</a>
+                                    <ul>
+                                        <li><a href="#">Kids Bags</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Men's & Boy's Fashion</a>
+                                    <ul>
+                                        <li><a href="#">Clothing</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Mother's Baby</a>
+                                    <ul>
+                                        <li><a href="#">Baby Personal Care</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Electronics Devices</a>
+                                    <ul>
+                                        <li><a href="#">Smartphone</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">TV & Home Appliances</a>
+                                    <ul>
+                                        <li><a href="#">Television</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Electronics Accesories</a>
+                                    <ul>
+                                        <li><a href="#">Audio</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Groceries</a>
+                                    <ul>
+                                        <li><a href="#">Breakfast</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Home & Life Style</a>
+                                    <ul>
+                                        <li><a href="#">Bath</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Sports & Outdoors</a>
+                                    <ul>
+                                        <li><a href="#">Exercise & Fitness  </a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Automotive & Motorbike</a>
+                                    <ul>
+                                        <li><a href="#">Oil & Fluids</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                    <a href="#">Shalwar Kameez</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                        <li><a href="#">Traditional Wear</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="our-slider">
+                        <div class="my-slider">
+                            <div class="box">
+                                <img src="images/slider1.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <img src="images/slider2.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <img src="images/slider3.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <img src="images/slider4.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <img src="images/slider5.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Area Start -->
+    <section class="hero-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="img-details">
+                        <img src="images/icon1.png" alt="">
+                        <a href="#">Safe Payments</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="img-details">
+                        <img src="images/icon2.png" alt="">
+                        <a href="#">Nationwide Delivery</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="img-details">
+                        <img src="images/icon3.png" alt="">
+                        <a href="#">Free & Easy Return</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="img-details">
+                        <img src="images/icon4.png" alt="">
+                        <a href="#">Best Price Guarenteed</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="img-details">
+                        <img src="images/icon5.png" alt="">
+                        <a href="#">100% Autehntic Products</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="img-details">
+                        <img src="images/icon6.png" alt="">
+                        <a href="#">Online Verified</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hero-area2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="box">
+                        <a href="#">
+                            <div class="images">
+                                <img src="images/hero1.png" alt="Hero Images">
+                                <a href="#">Wholesale Price</a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="box">
+                        <a href="#">
+                            <div class="images">
+                                <img src="images/hero1.png" alt="Hero Images">
+                                <a href="#">Wholesale Price</a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="box">
+                        <a href="#">
+                            <div class="images">
+                                <img src="images/hero1.png" alt="Hero Images">
+                                <a href="#">Wholesale Price</a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="box">
+                        <a href="#">
+                            <div class="images">
+                                <img src="images/hero1.png" alt="Hero Images">
+                                <a href="#">Wholesale Price</a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="box">
+                        <a href="#">
+                            <div class="images">
+                                <img src="images/hero1.png" alt="Hero Images">
+                                <a href="#">Wholesale Price</a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="box">
+                        <a href="#">
+                            <div class="images">
+                                <img src="images/hero1.png" alt="Hero Images">
+                                <a href="#">Wholesale Price</a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FlashSale Start -->
+    <section class="flashsale">
+        <div class="container">
+            <h3>Flashsale</h3>
+            <div class="row line">
+                <div class="col-lg-3 col-4">
+                    <a href="#">On Sale Now</a>
+                </div>
+                <div class="col-lg-5 col-4">
+                    <a href="#">Ending in:</a>
+                </div>
+                <div class="col-lg-4 col-4">
+                    <div class="click-btn">
+                        <button>
+                            <a href="#">SHOP MORE</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row p-2">
+                <div class="col-lg-2 col-md-4 col-6">
+                    <a href="#">
+                        <div class="box">
+                            <div class="images-and-details">
+                                <div class="images">
+                                    <img src="images/flashsale1.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <p>Standard Horlicks Health and Nutrition Drink...</p>
+                                    <h4>৳350</h4>
+                                    <div class="discount-dtl">
+                                        <del>৳420</del>
+                                        <h5>-16%</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <a href="#">
+                        <div class="box">
+                            <div class="images-and-details">
+                                <div class="images">
+                                    <img src="images/flashsale1.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <p>Standard Horlicks Health and Nutrition Drink...</p>
+                                    <h4>৳350</h4>
+                                    <div class="discount-dtl">
+                                        <del>৳420</del>
+                                        <h5>-16%</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <a href="#">
+                        <div class="box">
+                            <div class="images-and-details">
+                                <div class="images">
+                                    <img src="images/flashsale1.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <p>Standard Horlicks Health and Nutrition Drink...</p>
+                                    <h4>৳350</h4>
+                                    <div class="discount-dtl">
+                                        <del>৳420</del>
+                                        <h5>-16%</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <a href="#">
+                        <div class="box">
+                            <div class="images-and-details">
+                                <div class="images">
+                                    <img src="images/flashsale1.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <p>Standard Horlicks Health and Nutrition Drink...</p>
+                                    <h4>৳350</h4>
+                                    <div class="discount-dtl">
+                                        <del>৳420</del>
+                                        <h5>-16%</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <a href="#">
+                        <div class="box">
+                            <div class="images-and-details">
+                                <div class="images">
+                                    <img src="images/flashsale1.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <p>Standard Horlicks Health and Nutrition Drink...</p>
+                                    <h4>৳350</h4>
+                                    <div class="discount-dtl">
+                                        <del>৳420</del>
+                                        <h5>-16%</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <a href="#">
+                        <div class="box">
+                            <div class="images-and-details">
+                                <div class="images">
+                                    <img src="images/flashsale1.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <p>Standard Horlicks Health and Nutrition Drink...</p>
+                                    <h4>৳350</h4>
+                                    <div class="discount-dtl">
+                                        <del>৳420</del>
+                                        <h5>-16%</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Categories Start -->
+    <section class="categories">
+        <div class="container">
+            <h3>Categories</h3>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="box">
+                        <a href="#">
+                            <div class="row">
+                                <div class="col-lg-6 col-6">
+                                    <div class="img-and-text">
+                                        <img src="images/categories1.jpg" alt="Categories">
+                                        <p>In-Ear Headphones</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-6">
+                                    <div class="img-and-text">
+                                        <img src="images/categories1.jpg" alt="Categories">
+                                        <p>In-Ear Headphones</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="box">
+                        <a href="#">
+                            <div class="row">
+                                <div class="col-lg-6 col-6">
+                                    <div class="img-and-text">
+                                        <img src="images/categories1.jpg" alt="Categories">
+                                        <p>In-Ear Headphones</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-6">
+                                    <div class="img-and-text">
+                                        <img src="images/categories1.jpg" alt="Categories">
+                                        <p>In-Ear Headphones</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="box">
+                        <a href="#">
+                            <div class="row">
+                                <div class="col-lg-6 col-6">
+                                    <div class="img-and-text">
+                                        <img src="images/categories1.jpg" alt="Categories">
+                                        <p>In-Ear Headphones</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-6">
+                                    <div class="img-and-text">
+                                        <img src="images/categories1.jpg" alt="Categories">
+                                        <p>In-Ear Headphones</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="box">
+                        <a href="#">
+                            <div class="row">
+                                <div class="col-lg-6 col-6">
+                                    <div class="img-and-text">
+                                        <img src="images/categories1.jpg" alt="Categories">
+                                        <p>In-Ear Headphones</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-6">
+                                    <div class="img-and-text">
+                                        <img src="images/categories1.jpg" alt="Categories">
+                                        <p>In-Ear Headphones</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-1">
+                <div class="col-lg-3 col-md-6">
+                    <div class="box">
+                        <a href="#">
+                            <div class="row">
+                                <div class="col-lg-6 col-6">
+                                    <div class="img-and-text">
+                                        <img src="images/categories1.jpg" alt="Categories">
+                                        <p>In-Ear Headphones</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-6">
+                                    <div class="img-and-text">
+                                        <img src="images/categories1.jpg" alt="Categories">
+                                        <p>In-Ear Headphones</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="box">
+                        <a href="#">
+                            <div class="row">
+                                <div class="col-lg-6 col-6">
+                                    <div class="img-and-text">
+                                        <img src="images/categories1.jpg" alt="Categories">
+                                        <p>In-Ear Headphones</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-6">
+                                    <div class="img-and-text">
+                                        <img src="images/categories1.jpg" alt="Categories">
+                                        <p>In-Ear Headphones</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="box">
+                        <a href="#">
+                            <div class="row">
+                                <div class="col-lg-6 col-6">
+                                    <div class="img-and-text">
+                                        <img src="images/categories1.jpg" alt="Categories">
+                                        <p>In-Ear Headphones</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-6">
+                                    <div class="img-and-text">
+                                        <img src="images/categories1.jpg" alt="Categories">
+                                        <p>In-Ear Headphones</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="box">
+                        <a href="#">
+                            <div class="row">
+                                <div class="col-lg-6 col-6">
+                                    <div class="img-and-text">
+                                        <img src="images/categories1.jpg" alt="Categories">
+                                        <p>In-Ear Headphones</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-6">
+                                    <div class="img-and-text">
+                                        <img src="images/categories1.jpg" alt="Categories">
+                                        <p>In-Ear Headphones</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Just For You Start -->
+    <section class="for-you">
+        <div class="container">
+            <div class="row p-2">
+                <h3>Just For You</h3>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="box">
+                        <a href="#">
+                            <div class="images-and-details">
+                                <div class="images">
+                                    <img src="images/for-you1.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <p>TWS Pro60 Wireless Bluetooth Headest...</p>
+                                    <h4>৳433</h4>
+                                    <div class="discount-dtl">
+                                        <del>৳502</del>
+                                        <h5>-16%</h5>
+                                    </div>
+                                    <div class="rating">
+                                        <div class="icon">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="overview">
+                                            <p>(50)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="box">
+                        <a href="#">
+                            <div class="images-and-details">
+                                <div class="images">
+                                    <img src="images/for-you1.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <p>TWS Pro60 Wireless Bluetooth Headest...</p>
+                                    <h4>৳433</h4>
+                                    <div class="discount-dtl">
+                                        <del>৳502</del>
+                                        <h5>-16%</h5>
+                                    </div>
+                                    <div class="rating">
+                                        <div class="icon">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="overview">
+                                            <p>(50)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="box">
+                        <a href="#">
+                            <div class="images-and-details">
+                                <div class="images">
+                                    <img src="images/for-you1.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <p>TWS Pro60 Wireless Bluetooth Headest...</p>
+                                    <h4>৳433</h4>
+                                    <div class="discount-dtl">
+                                        <del>৳502</del>
+                                        <h5>-16%</h5>
+                                    </div>
+                                    <div class="rating">
+                                        <div class="icon">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="overview">
+                                            <p>(50)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="box">
+                        <a href="#">
+                            <div class="images-and-details">
+                                <div class="images">
+                                    <img src="images/for-you1.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <p>TWS Pro60 Wireless Bluetooth Headest...</p>
+                                    <h4>৳433</h4>
+                                    <div class="discount-dtl">
+                                        <del>৳502</del>
+                                        <h5>-16%</h5>
+                                    </div>
+                                    <div class="rating">
+                                        <div class="icon">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="overview">
+                                            <p>(50)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="box">
+                        <a href="#">
+                            <div class="images-and-details">
+                                <div class="images">
+                                    <img src="images/for-you1.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <p>TWS Pro60 Wireless Bluetooth Headest...</p>
+                                    <h4>৳433</h4>
+                                    <div class="discount-dtl">
+                                        <del>৳502</del>
+                                        <h5>-16%</h5>
+                                    </div>
+                                    <div class="rating">
+                                        <div class="icon">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="overview">
+                                            <p>(50)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="box">
+                        <a href="#">
+                            <div class="images-and-details">
+                                <div class="images">
+                                    <img src="images/for-you1.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <p>TWS Pro60 Wireless Bluetooth Headest...</p>
+                                    <h4>৳433</h4>
+                                    <div class="discount-dtl">
+                                        <del>৳502</del>
+                                        <h5>-16%</h5>
+                                    </div>
+                                    <div class="rating">
+                                        <div class="icon">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="overview">
+                                            <p>(50)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="load-btn">
+                <button>
+                    <a href="#">LOAD MORE</a>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Area -->
+    <section class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <div class="images-and-details">
+                        <div class="img">
+                            <img src="images/footer1.png" alt="Footer Images">
+                        </div>
+                        <div class="details">
+                            <a href="#">MONEY GUARANTEE</a>
+                            <P>sed ut perspiciatis unde omnisiste natus error sit voluptatem accusantium</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="images-and-details">
+                        <div class="img">
+                            <img src="images/footer1.png" alt="Footer Images">
+                        </div>
+                        <div class="details">
+                            <a href="#">MONEY GUARANTEE</a>
+                            <P>sed ut perspiciatis unde omnisiste natus error sit voluptatem accusantium</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="images-and-details">
+                        <div class="img">
+                            <img src="images/footer1.png" alt="Footer Images">
+                        </div>
+                        <div class="details">
+                            <a href="#">MONEY GUARANTEE</a>
+                            <P>sed ut perspiciatis unde omnisiste natus error sit voluptatem accusantium</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="images-and-details">
+                        <div class="img">
+                            <img src="images/footer1.png" alt="Footer Images">
+                        </div>
+                        <div class="details">
+                            <a href="#">MONEY GUARANTEE</a>
+                            <P>sed ut perspiciatis unde omnisiste natus error sit voluptatem accusantium</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-4">
+                    <div class="title">
+                        <a href="#">INFORMATION</a>
+                    </div>
+                    <ul>
+                        <li><a href="#">Shiping & Returns</a></li>
+                        <li><a href="#">Secure Shoping</a></li>
+                        <li><a href="#">Order Status</a></li>
+                        <li><a href="#">International Shiping</a></li>
+                        <li><a href="#">Payment Method</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-4">
+                    <div class="title">
+                        <a href="#">OUR SERVICES</a>
+                    </div>
+                    <ul>
+                        <li><a href="#">Privacy Policy </a></li>
+                        <li><a href="#">Customer Service</a></li>
+                        <li><a href="#">Orders & Returns</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Track Your Orders</a></li>
+                        <li><a href="#">Footer Links</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-4">
+                    <div class="title">
+                        <a href="#">FOOTER LINK</a>
+                    </div>
+                    <ul>
+                        <li><a href="#">Shiping & Returns</a></li>
+                        <li><a href="#">Secure Shoping</a></li>
+                        <li><a href="#">Order Status</a></li>
+                        <li><a href="#">International Shiping</a></li>
+                        <li><a href="#">Payment Method</a></li>
+                        <li><a href="#">Our Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-6">
+                    <div class="title">
+                        <a href="#">YOUR LINKS</a>
+                    </div>
+                    <div class="icon-and-dtl">
+                        <div class="icon">
+                            <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+                        </div>
+                        <div class="dtl">
+                            <p>San Luis Potosis Centro</p>
+                            <p>Historico, SLP, Mexico</p>
+                        </div>
+                    </div>
+                    <div class="icon-and-dtl">
+                        <div class="icon">
+                            <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+                        </div>
+                        <div class="dtl">
+                            <p>San Luis Potosis Centro</p>
+                            <p>Historico, SLP, Mexico</p>
+                        </div>
+                    </div>
+                    <div class="icon-and-dtl">
+                        <div class="icon">
+                            <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+                        </div>
+                        <div class="dtl">
+                            <p>San Luis Potosis Centro</p>
+                            <p>Historico, SLP, Mexico</p>
+                        </div>
+                    </div>
+                    <div class="icon-and-dtl">
+                        <div class="icon">
+                            <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+                        </div>
+                        <div class="dtl">
+                            <p>San Luis Potosis Centro</p>
+                            <p>Historico, SLP, Mexico</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-6">
+                    <div class="title">
+                        <a href="#">SIGN UP FOR NEWSLETTER</a>
+                        <p>Sign up for the TopMart newsletter and get a 15 off voucher</p>
+                    </div>
+                    <div class="form">
+                        <form>
+                            <input type="email" placeholder="Email address">
+                            <div class="f-sub">
+                                <input type="submit" value="SUBSCRIBE">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="title">
+                        <a href="#">CONNECT WITH US</a>
+                        <div class="icon2">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer-product">
+        <div class="container">
+            <a href="#">Laptop</a>
+            <a href="#">Eye Makeup</a>
+            <a href="#">iPad Cases</a>
+            <a href="#">Cosmetics</a>
+            <a href="#">Galaxy S10+</a>
+            <a href="#">Tatto Kits</a>
+            <a href="#">iPhone XS</a>
+            <a href="#">Galaxy Note 9</a>
+            <a href="#">Laptop Deal</a>
+            <a href="#">Denim Jacket</a>
+            <a href="#">Men Fashion</a>
+            <a href="#">Washing Machine</a>
+            <a href="#">iPhone X Cases</a>
+            <a href="#">Fast Food</a>
+            <a href="#">Men's Shoes</a>
+            <a href="#">Galaxy Note 9</a>
+            <a href="#">Laptop Deal</a>
+            <a href="#">Denim Jacket</a>
+            <a href="#">iPhone XS</a>
+            <a href="#">Fast Food</a>
+            <a href="#">Laptop Deal</a>
+            <a href="#">Men's Shoes</a>
+            <a href="#">Fast Food</a>
+            <a href="#">Tatto Kits</a>
+            <a href="#">Laptop Deal</a>
+            <a href="#">Men's Shoes</a>
+        </div>
+    </section>
+    <section class="final-footer">
+        <div class="container">
+            <div class="img">
+                <img src="images/pament1.png" alt="payment">
+            </div>
+            <div class="text">
+                <p>Designed by- <a href="#">5 Members of Group</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top -->
+    <section class="back-to-up">
+        <a href="#" class="to-top">
+            <i class="fa-solid fa-chevron-up"></i>
+        </a> 
+    </section>
+    <!--Bootstrap Script Added -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <!-- Slick Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Slick JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- Main JS -->
+    <script src="main.js"></script>
+</body>
+</html>

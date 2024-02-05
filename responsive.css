@@ -1,0 +1,183 @@
+@media only screen and (min-width: 200px) and (max-width: 991px){
+    /* First Header */
+    .first-header{
+        display: none;
+    }
+    .second-header{
+        display: none;
+    }
+    .slider-section .main-menu{
+        display: none;
+    }
+    .main-header{
+        margin-top: 0;
+        padding: 0;
+    }
+    /* Mobile Menu */
+    .main-header{
+        display: block;
+    }
+    .main-header .main-menu ul{
+        margin-bottom: 5px;
+    }
+    .main-header .main-menu ul li{
+        display: block;
+        text-align: center;
+    }
+    .main-header .container{
+        padding: 0;
+    }
+    .main-header .mobile-menu form{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .main-header .mobile-menu form input{
+        width: 300px;
+        font-size: 14px;
+        padding: 3px 10px;
+    }
+    .main-header .mobile-menu .search-icon{
+        margin-top: -30px;
+        margin-left: 197px;
+    }
+    .main-header .mobile-menu .search-icon i{
+        padding: 6px 42px 7px 42px;
+        background: red;
+    }
+
+    /* To Top */
+    .to-top{
+        font-size: 16px;
+        width: 40px;
+        height: 40px;
+    }
+
+    /* First Header */
+    .first-header p{
+        text-align: center;
+    }
+    .first-header ul li{
+        display: block;
+        text-align: center;
+    }
+
+    /* Second Header */
+    .menu-open, .menu-close, .menu-open2, .menu-close2{
+        display: block;
+    }
+    .mobile-menu{
+        /* display: none; */
+        visibility: hidden;
+        opacity: 0;
+        transition: all .5s;
+        position: relative;
+        background-color: #fd79a8;
+    }
+    .menu-icon{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding: 10px;
+        visibility: visible;
+        background-color: #f85606;
+    }
+    .menu-icon i{
+        color: #000;
+        font-size: 22px;
+        padding: 5px;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    .menu-icon .menu-close{
+        display: none;
+    }
+    .show.mobile-menu{
+        /* display: block; */
+        visibility: visible;
+        opacity: 1;
+    }
+    .second-header .logo-area{
+        margin-top: 10px;
+    }
+    .second-header .card-area{
+        width: 100%;
+    }
+    .second-header .login{
+        width: 100%;
+    }
+    .second-header .card-and-details{
+        width: 100%;
+    } 
+
+    /* Main Menu & Slider Section */
+    .slider-section .row{
+        padding-top: 45px;
+    }
+    .slider-section .main-menu{
+        width: 50%;
+    }
+    .slider-section ul li ul{
+        width: 100%;
+    }
+    .slider-section ul li:hover ul ul{
+        margin-left: -100%;
+    }
+
+    /* Hero Area */
+    .hero-area {
+        margin-top: -20px;
+    }
+    .hero-area .img-details{
+        padding: 2px 0;
+    }
+    .hero-area2 .box{
+        margin: 5px 0 12px 0;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 767px){
+
+    /* Main-Menu & Slider */
+    .slider-section .my-slider .box{
+        height: 100%;
+    }
+    .slick-prev::before, .slick-next::before{
+        font-size: 30px;
+    }
+    .slick-prev{
+        left: 7px;
+    }
+    .slick-next{
+        right: 18px;
+    }
+    .slick-dots{
+        bottom: 10px;
+    }
+
+    /* Hero Area */
+    .hero-area2 a{
+        font-size: 14px;
+    }
+
+    /* Flashsale Start */
+    .flashsale a{
+        font-size: 14px;
+    }
+    .flashsale .box{
+        margin: 10px 0 10px 0;
+    }
+
+    /* For You Start*/
+    .for-you .details p{
+        font-size: 14px;
+    }
+    .footer-area p{
+        font-size: 14px;
+    }
+    .footer-area .images-and-details{
+        margin: 10px 0;
+    }
+}
